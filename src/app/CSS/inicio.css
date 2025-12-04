@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+body {
+    background: #f8f3d4;
+    background-image: url('../../../public/IMG/FONDOPAG.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* NAVBAR */
+.navbar {
+    background: #f1e7b8;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);  
+}
+
+.logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.navbar-left {
+        display: flex;
+        align-items: center;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+    color: #c58a00;
+}
+
+.navbar-left nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 600;
+    color: #6b5a40;
+}
+
+.navbar-right button {
+    margin-left: 10px;
+}
+
+.btn-primary {
+    background: #d9a441;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-secondary {
+    background: #f4eec2;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #6b5a40;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #c58d3a;
+    font-weight: 800;
+}
+
+.hero p {
+    margin-top: 10px;
+    color: #6b5a40;
+}
+
+/* SECCION CARNE MECHADA */
+.featured {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 70px 40px;
+}
+
+.text-box {
+    max-width: 350px;
+}
+
+.text-box h2 {
+    color: #c58d3a;
+    font-size: 32px;
+}
+
+.text-box h3 {
+    color: #6b5a40;
+    margin-bottom: 10px;
+}
+
+.text-box p {
+    margin: 10px 0;
+    color: #6b5a40;
+}
+
+.text-box .bold {
+    font-weight: 600;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.card {
+    background: #f6a04d;
+    padding: 20px;
+    border-radius: 18px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 230px;
+}
+
+.card .price {
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* PRODUCTOS */
+.products {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.products h2 {
+    color: #b88840;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.products p {
+    color: #6b5a40;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.product {
+    background: white;
+    border-radius: 18px;
+    width: 260px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.product img {
+    width: 200px;
+}
+
+.price {
+    color: #c58d3a;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.bottom-text {
+    margin-top: 40px;
+    font-size: 28px;
+    color: #c58d3a;
+}
+
+/* FOOTER */
+footer {
+    background: #eac083;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.footer-grid h4 {
+    color: #6b4e28;
+    margin-bottom: 10px;
+}
+
+.footer-grid p {
+    color: #6b4e28;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+
+.footer-logo img {
+    height: 70px;
+}
+
+.social {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+    
+}
+
+.social img {
+    margin: 0 10px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.rights {
+    text-align: center;
+    margin-top: 15px;
+    color: #6b4e28;
+    font-size: 14px;
+}
+
+.H{
+    text-decoration: none;
+    color: #6b4e28;
+}
